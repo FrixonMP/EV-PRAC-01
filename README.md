@@ -5,7 +5,7 @@ Transcripción y evidencias de la evaluación práctica **EV-PRAC-01**.
 ## Estructura del repositorio
 
 - `README.md`: Instrucciones de compilación y estructura del trabajo.
-- `evidencias/`: Fotografías de las hojas originales escritas a mano (`hoja-01.jpg`, `hoja-02.jpg`, ...).
+- `evidencias/`: Fotografías de las hojas originales escritas a mano (`hoja-01.jpg`, `hoja-02.jpg` y `hoja-03.jpg`).
 - `main.tex`: Transcripción fiel de la prueba escrita a mano con el anexo de fotografías al final.
 - `referencias.bib`: Base bibliográfica en formato BibTeX utilizada por `main.tex`.
 - `main.pdf`: Documento PDF compilado a partir de `main.tex`.
