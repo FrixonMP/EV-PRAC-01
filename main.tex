@@ -101,30 +101,32 @@
 \seccion{Desarrollo de Tareas}
 % =====================================================================
 
+
 \begin{cajatarea}[title={T1. Conceptos aplicados al caso \hfill D1 · 10\,\%}]
 	\textbf{(a) Definición de requisito según ISO/IEC/IEEE 29148:2018 \citep{iso29148_2018} y análisis de E7 y E12:}\\
 	Un requisito se define según ISO/IEC/IEEE 29148:2018 \citep{iso29148_2018} una condición que necesita un usuario para resolver un problema o alcanzar un objetivo.
 	\begin{itemize}[leftmargin=18pt,itemsep=2pt]
-		\item \textbf{E7} No es un requisito del producto, es un enunciado descriptivo del procedimiento actual. (SWEBOK v4.0, cap. 1 \citep{swebok_v4_2024}).
+		\item \textbf{E7} No es un requisito del producto, es un enunciado descriptivo del procedimiento actual (SWEBOK v4.0, cap. 1 \citep{swebok_v4_2024}).
 		\item \textbf{E12} No es un requisito del producto, sino una restricción o condición de gestión del proyecto (SWEBOK v4.0, cap. 1 \citep{swebok_v4_2024}).
 	\end{itemize}
 
 	\textbf{(b) Perspectiva de sistemas (StRS, SyRS y SRS) según ISO/IEC/IEEE 29148:2018 \citep{iso29148_2018}:}
 	\begin{itemize}[leftmargin=18pt,itemsep=2pt]
-		\item \textbf{StRS (Stakeholder Requirements Specification):} Necesidades de los interesados (29148, 2018 \citep{iso29148_2018})
-		\item \textbf{SyRS (System Requirements Specification):} Describe las capacidades técnicas, interfaces y comportamiento del sistema global (hardware + software + actores humanos) (29148, 2018 \citep{iso29148_2018}). \emph{Enunciado del Insumo A:} \textbf{E3} («El sensor TL-40\ldots envía una lectura cada 10 minutos usando el protocolo MQTT»), ya que especifica el comportamiento técnico del hardware del sistema global.
-		\item \textbf{SRS (Software Requirements Specification):} Describe de forma exclusiva los requisitos funcionales y no funcionales asignados al componente de software (29148, 2018 \citep{iso29148_2018}). \emph{Enunciado del Insumo A:} \textbf{E5} («El sistema generará en formato PDF el informe mensual\ldots»), porque define una función automatizada propia de la plataforma de software.
+		\item \textbf{StRS (Stakeholder Requirements Specification):} Necesidades de los interesados (29148, 2018 \citep{iso29148_2018}).
+		\item \textbf{SyRS (System Requirements Specification):} Capacidades del sistema global (29148, 2018 \citep{iso29148_2018}).
+		\item \textbf{SRS (Software Requirements Specification):} Son los requisitos exclusivos (29148, 2018 \citep{iso29148_2018}).
 	\end{itemize}
 
 	\textbf{(c) Actividades del proceso de IR (SWEBOK v4.0, cap. 1 \citep{swebok_v4_2024}) y marco de Pohl \citep{pohl_2025} (H1 a H5):}
 	\begin{itemize}[leftmargin=18pt,itemsep=2pt]
-		\item \textbf{H1:} Actividad de \textbf{Elicitación} --- Tipo \textbf{Central} (según el marco de Pohl \citep{pohl_2025}).
-		\item \textbf{H2:} Actividad de \textbf{Análisis y negociación} --- Tipo \textbf{Central} (según el marco de Pohl \citep{pohl_2025}).
-		\item \textbf{H3:} Actividad de \textbf{Especificación} --- Tipo \textbf{Central} (según el marco de Pohl \citep{pohl_2025}).
-		\item \textbf{H4:} Actividad de \textbf{Validación} --- Tipo \textbf{Central} (según el marco de Pohl \citep{pohl_2025}).
-		\item \textbf{H5:} Actividad de \textbf{Gestión (de requisitos/cambios)} --- Tipo \textbf{Transversal} (según el marco de Pohl \citep{pohl_2025}).
+		\item \textbf{H1:} Elicitacion \citep{pohl_2025}
+		\item \textbf{H2:} Analisis y negocio \citep{pohl_2025}
+		\item \textbf{H3:} Especificacion \citep{pohl_2025}
+		\item \textbf{H4:} Validacion \citep{pohl_2025}
+		\item \textbf{H5:} Gestion \citep{pohl_2025}
 	\end{itemize}
 \end{cajatarea}
+
 
 \begin{cajatarea}[title={T2. Clasificación y auditoría \hfill D2 · 30\,\%}]
 	\textbf{(a) Clasificación de Insumo A (E1 a E12)}
