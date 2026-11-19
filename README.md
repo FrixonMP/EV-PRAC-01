@@ -1,6 +1,6 @@
 # EV-PRAC-01
 
-Transcripción y evidencias de la evaluación práctica **EV-PRAC-01** (Caso **FRÍOVAC**), asignatura Ingeniería de Requerimientos (ISR-401), UTEQ.
+Transcripción y evidencias de la evaluación práctica **EV-PRAC-01**.
 
 ## Estructura del repositorio
 
