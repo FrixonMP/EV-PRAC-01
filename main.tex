@@ -1,9 +1,4 @@
-% =====================================================================
-%  TRANSCRIPCIÓN FIEL - EVALUACIÓN DE LA UNIDAD I (EV-PRAC-01)
-%  Fundamentos de Ingeniería de Requisitos · Caso FRÍOVAC
-%  Ingeniería de Requerimientos (ISR-401) · UTEQ · SPA 2026-2027
-%  Compilación: pdflatex -> bibtex -> pdflatex -> pdflatex
-% =====================================================================
+
 \documentclass[11pt]{article}
 
 \usepackage[utf8]{inputenc}
@@ -69,9 +64,7 @@
 
 \begin{document}
 
-% =====================================================================
-% ENCABEZADO Y DATOS DE IDENTIFICACIÓN
-% =====================================================================
+
 \begin{center}
 	{\large Facultad de Ciencias de la Computación \,$\cdot$\, Carrera de Software}\\[6pt]
 	{\LARGE\textbf{\textcolor{utegreendk}{EVALUACIÓN DE LA UNIDAD I (EV-PRAC-01)}}}\\[4pt]
@@ -101,7 +94,6 @@
 \seccion{Desarrollo de Tareas}
 % =====================================================================
 
-
 \begin{cajatarea}[title={T1. Conceptos aplicados al caso \hfill D1 · 10\,\%}]
 	\textbf{(a) Definición de requisito según ISO/IEC/IEEE 29148:2018 \citep{iso29148_2018} y análisis de E7 y E12:}\\
 	Un requisito se define según ISO/IEC/IEEE 29148:2018 \citep{iso29148_2018} una condición que necesita un usuario para resolver un problema o alcanzar un objetivo.
@@ -127,7 +119,6 @@
 	\end{itemize}
 \end{cajatarea}
 
-
 \begin{cajatarea}[title={T2. Clasificación y auditoría \hfill D2 · 30\,\%}]
 	\textbf{(a) Clasificación de Insumo A (E1 a E12)}
 
@@ -149,17 +140,17 @@
 		\hline
 		\rowcolor{rowgray} E6 & Funcional & SyRS & Registro continuo durante cortes electricos (29148, 2018 \citep{iso29148_2018}).\\
 		\hline
-		E7 & No es requisito & Ninguno & Describe el proceso  manual. (SWEBOK v4.0, cap. 1 \citep{swebok_v4_2024}).\\
+		E7 & No es requisito & Ninguno & Describe el proceso manual. (SWEBOK v4.0, cap. 1 \citep{swebok_v4_2024}).\\
 		\hline
 		\rowcolor{rowgray} E8 & No funcional & SRS & Historial en mens de 3 segundos. (ISO/IEC 25010:2023 \citep{iso25010_2023}).\\
 		\hline
 		E9 & Restricción & SRS & Despliegue obligatorio en servidores Linux. (29148, 2018 \citep{iso29148_2018}).\\
 		\hline
-		\rowcolor{rowgray} E10 & Funcional  & SRS & Acciones por personal autorizado. (ISO/IEC 25010:2023 \citep{iso25010_2023}).\\
+		\rowcolor{rowgray} E10 & Funcional & SRS & Acciones por personal autorizado. (ISO/IEC 25010:2023 \citep{iso25010_2023}).\\
 		\hline
 		E11 & No funcional & SRS & Tiempo maximo de aprendizaje 2 minutos.(ISO/IEC 25010:2023 \citep{iso25010_2023}).\\
 		\hline
-		\rowcolor{rowgray} E12 & No es requisito & Ninguno  & Planificación del plan del proyecto (SWEBOK v4.0, cap. 1 \citep{swebok_v4_2024}).\\
+		\rowcolor{rowgray} E12 & No es requisito & Ninguno & Planificación del plan del proyecto (SWEBOK v4.0, cap. 1 \citep{swebok_v4_2024}).\\
 		\hline
 	\end{tabularx}
 	}
@@ -171,17 +162,17 @@
 	{\small
 	\noindent\begin{tabularx}{\linewidth}{|C{0.06\linewidth}|L{0.21\linewidth}|L{0.21\linewidth}|L{0.15\linewidth}|Y|}
 		\hline
-		\thdr{ID} & \thdr{Término} & \thdr{Característica 29148 } & \thdr{SMART} & \thdr{Justificación}\\
+		\thdr{ID} & \thdr{Término} & \thdr{Característica 29148} & \thdr{SMART} & \thdr{Justificación}\\
 		\hline
-		B1 & Rápido y fácil de usar & \emph No ambigüedad (29148, 5.2.5 \citep{iso29148_2018}) & \emph{Specific} y \emph{Measurable} \citep{mannion_smart_1995} & Mezcla múltiples cualidades subjetivas sin métricas (29148, 5.2.5 \citep{iso29148_2018}).\\
+		B1 & Rápido y fácil de usar & \emph{No ambigüedad} (29148, 5.2.5 \citep{iso29148_2018}) & \emph{Specific} y \emph{Measurable} \citep{mannion_smart_1995} & Mezcla múltiples cualidades subjetivas sin métricas (29148, 5.2.5 \citep{iso29148_2018}).\\
 		\hline
 		\rowcolor{rowgray} B2 & Alertas oportunas & \emph{Verifiable} (29148, 5.2.5 \citep{iso29148_2018}) & \emph{Measurable} \citep{mannion_smart_1995} & No define el plazo maximo. (29148, 5.2.5 \citep{iso29148_2018}).\\
 		\hline
-		B3 & Incluso sin energía & \emph factible (29148, 5.2.5 \citep{iso29148_2018}) & \emph{Attainable}\citep{mannion_smart_1995} & Exige autonomía (29148, 5.2.5 \citep{iso29148_2018}).\\
+		B3 & Incluso sin energía & \emph{factible} (29148, 5.2.5 \citep{iso29148_2018}) & \emph{Attainable} \citep{mannion_smart_1995} & Exige autonomía (29148, 5.2.5 \citep{iso29148_2018}).\\
 		\hline
-		\rowcolor{rowgray} B4 & Base de datos MongoDB. & \emph{Implementation} (29148, 5.2.5 \citep{iso29148_2018}) & \emph{Realisable}\citep{mannion_smart_1995} & Impone decisiones tecnológicas específicas de arquitectura. (29148, 5.2.5 \citep{iso29148_2018}).\\
+		\rowcolor{rowgray} B4 & Base de datos MongoDB. & \emph{Implementation} (29148, 5.2.5 \citep{iso29148_2018}) & \emph{Realisable} \citep{mannion_smart_1995} & Impone decisiones tecnológicas específicas de arquitectura. (29148, 5.2.5 \citep{iso29148_2018}).\\
 		\hline
-		B5 & Exportar los datos a Excel, CSV, etc.& \emph{Generalizacion}(29148, 5.2.3 / 5.2.5 / 5.2.7 \citep{iso29148_2018}) & \emph{Specific} \citep{mannion_smart_1995} & El condicional «Si es posible» elimina la obligatoriedad (\emph{debe}) y «etc.» deja los formatos de salida indefinidos (29148, 5.2.7 \citep{iso29148_2018}).\\
+		B5 & Exportar los datos a Excel, CSV, etc. & \emph{Generalizacion} (29148, 5.2.3 / 5.2.5 / 5.2.7 \citep{iso29148_2018}) & \emph{Specific} \citep{mannion_smart_1995} & El condicional «Si es posible» elimina la obligatoriedad (\emph{debe}) y «etc.» deja los formatos de salida indefinidos (29148, 5.2.7 \citep{iso29148_2018}).\\
 		\hline
 		\rowcolor{rowgray} B6 & \emph{Requisito bien formado} & Formal \textbf{29148, 5.2.4} \citep{iso29148_2018} & Cumple todo \citep{mannion_smart_1995} & Presenta estructura completa. (29148, 5.2.4 \citep{iso29148_2018}).\\
 		\hline
@@ -198,7 +189,7 @@
 		\hline
 		\thdr{ID} & \thdr{Enunciado} & \thdr{Tipo (ISO/IEC 25010:2023 \citep{iso25010_2023})} & \thdr{Doc.} & \thdr{Fuente} & \thdr{Método de verif.}\\
 		\hline
-		R1 & Cuando un usuario solicite consultar el historial de temperaturas de un establecimiento, el sistema debe mostrar los registros en pantalla en un tiempo máximo de 3 segundos. & No funcional \citep{iso25010_2023}) & SRS & B1, E8 & Prueba\\
+		R1 & Cuando un usuario solicite consultar el historial de temperaturas de un establecimiento, el sistema debe mostrar los registros en pantalla en un tiempo máximo de 3 segundos. & No funcional \citep{iso25010_2023} & SRS & B1, E8 & Prueba\\
 		\hline
 		\rowcolor{rowgray} R2 & Cuando un responsable de vacunatorio registra de una acción correctiva en un tiempo no mayor a 2 minutos. & No funcional \citep{iso25010_2023} & SRS & B1, E11 & Demostración\\
 		\hline
@@ -206,28 +197,23 @@
 		\hline
 		\rowcolor{rowgray} R4 & Cuando ocurra una interrupción del suministro eléctrico debe almacenar localmente las lecturas de temperatura. & No funcional \citep{iso25010_2023} & SyRS & B3, E3, E6 & Prueba\\
 		\hline
-		R5 & Cuando la coordinadora de inmunizaciones solicite el consolidado de temperaturas de los 16 establecimientos, el sistema debe exportar el reporte en formatos PDF y CSV en un tiempo máximo de 10 segundos. & Funcional  \citep{iso25010_2023} & SRS & B5, E5 & Demostración\\
+		R5 & Cuando la coordinadora de inmunizaciones solicite el consolidado de temperaturas de los 16 establecimientos, el sistema debe exportar el reporte en formatos PDF y CSV en un tiempo máximo de 10 segundos. & Funcional \citep{iso25010_2023} & SRS & B5, E5 & Demostración\\
 		\hline
 	\end{tabularx}
 	}
 \end{cajatarea}
 
-% =====================================================================
-% BIBLIOGRAFÍA (Generada desde referencias.bib)
-% =====================================================================
+
 \bibliographystyle{plainnat}
 \bibliography{referencias}
 
-% =====================================================================
-% ANEXO DE FOTOGRAFÍAS (Reglas R1 - R5)
-% =====================================================================
-\newpage
+\clearpage
 \seccion{Anexo: Evidencias fotográficas de la prueba escrita}
 
 \begin{center}
-    \includegraphics[width=0.85\textwidth]{evidencias/hoja-01.jpg}\\[12pt]
-    \includegraphics[width=0.85\textwidth]{evidencias/hoja-02.jpg}\\[12pt]
-    \includegraphics[width=0.85\textwidth]{evidencias/hoja-03.jpg}
+	\includegraphics[width=0.85\textwidth]{evidencias/hoja-01.jpg}\\[12pt]
+	\includegraphics[width=0.85\textwidth]{evidencias/hoja-02.jpg}\\[12pt]
+	\includegraphics[width=0.85\textwidth]{evidencias/hoja-03.jpg}
 \end{center}
 
 \end{document}
